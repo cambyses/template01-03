@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <title>MediaPark Group</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <body>
+    <style type="text/css">
+            body {
+        margin: 10px !important;
+        background-color: #f3f3f3 !important;
+        font-family: sans-serif !important;
+    }
+    .wrap{
+        max-width: 600px !important;
+        margin: auto;
+        padding: 10px 0% !important;
+        background-color: #fff !important;
+    }
+    .main-container{
+        width: 94% !important;
+        margin: auto !important;
+    }
+    
+    li a, .content-item a { color: #FF9F22 !important;} /*Links*/
+
+    /* Start Header */
+    header { /* Main Header */
+        background: #fff !important;
+        padding: 1px 0 50px 0 !important;
+
+    }
+
+    
+    
+    header #dark-logo { /* Main logo attr */
+        width: 130px !important;
+        height: 30px !important;
+        float: left !important;
+    }
+    
+    header ul li{ /* Header quick links */
+        display: inline-block !important;
+        float: right !important;
+        margin: 10px 1% !important;
+    }
+    /* End Header */
+
+   
+
+
+    /* Start Content message  */
+    
+    #content{
+        margin: 30px 0 !important;
+        position: relative !important;
+    }
+    .content-cover{
+        overflow: hidden !important;
+        margin: auto !important;
+    }
+    .content-cover img{
+        width: 100% !important;
+    }
+
+    
+     /* End Content message  */
+   
+     /* Start footer  */
+    footer {
+        border-top: 1px solid #ccc !important;
+    }
+    footer img {
+        text-align: center;
+    }
+
+    footer h4 {
+        font-family: monospace !important;
+        font-size: 11px !important;
+        color: #666 !important;
+        font-style: italic !important;
+        margin: 4px 0 20px 0 !important;
+    }
+
+    footer #address {
+        margin-top: -10px !important;
+    }
+    .social-links{
+        padding-left: 0px !important;
+    }
+    .social-links li{ /* Start Social links */
+        display: inline-block !important;
+    } /* End Social links */
+    /* End footer  */
+
+
+/* Start media query max-width: 640px */
+@media all and (max-width: 640px)  {
+     body { margin: 0px !important;}
+    
+    .main-container {
+        max-width: 94% !important;
+        margin: 0 3% !important;
+        overflow: hidden !important;
+    }
+        
+    header #dark-logo {
+        width: 100px !important;
+    }
+     header ul li a{
+        font-weight: inherit !important;
+    }
+
+}
+/* End media query max-width: 640px */
+
+
+    </style>
+        <div class="wrap">
+            <div class="main-container">
+                <header id="header">
+                    <div id="header-content">
+                        <a target="_blank" href="#">
+                            <img src="images/logo_dark.png" id="dark-logo" alt="Logo"> <!-- Dark header logo -->
+                        </a>
+                         <!-- Start Header quick links -->
+                        <ul style="font-size: 90%">
+                            <li><a target="_blank" href="#">Home</a></li>
+                            <li><a target="_blank" href="#">About</a></li>
+                            <li><a target="_blank" href="#">Contact</a></li>
+                        </ul> <!-- End Header quick links -->
+                        </div> <!-- End all element inside header -->
+                </header> <!-- End Main header --> 
+
+                <!-- Start Message content  -->
+                <div id="content" style="overflow:hidden;"> <!-- Start Message content  -->
+                    <div class="content-cover">
+                        <img src="images/banner.png">
+                    </div>
+
+                    <div class="mail-content" style="padding: 35px 0 55px 0;">
+                        <div class="user-image" style="float:left; width:40%; padding-right:25px;">
+                            <img src="images/photo.png" style="width: 100%;">
+                        </div>
+                        <div class="user-details" style="max-width: 50%; float: right;">
+                            <h3>Mark Halondiski</h3>
+                            <p style="color: #666;">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the moitly industry has been the moitly industry's standard dummy text ever spesetting industry. Lorem Ipsum has been the moitly industry has been the moitly industry's standard dummy text ever sincpesetting industry. Lorem Ipsum has been the moitly industry has been the moitly industry's standard dummy text ever</p>
+                        
+                        <div class="content-button" style="margin-top: 25px;">
+                            <a href="#" style=" border-radius: 3px;
+                            padding: 10px 20px;
+                            color: #fff;
+                            float: right;
+                            margin-top: auto; 
+                            background: #fe4f20; 
+                            text-decoration: none;">
+                            Read More</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>                <!-- End Message content  -->
+
+                <!-- Start Footer tag -->
+                <footer style="text-align: center;
+                border-top: 1px solid #ccc;"> 
+                    <a target="_blank" href="http://mediaparkgroup.com/"><img 
+                     style="margin-top: 30px; height: 30px; text-align: center;" src="images/logo_dark.png"></a>
+                    <h4 style="text-align: center" >Copyright © 2016 Mediapark Inc., All rights reserved.</h4>
+                    <p  style="text-align: center;">
+                    <a style="
+                        color: #FF9F22;
+                        font-family: sans-serif;
+                        font-size: 12px;
+                        text-decoration: none;
+                        font-weight: bold;" id="email" href="mailto:hello@mediaparkgroup.com">
+                        hello@mediaparkgroup.com</a></p>
+                    <h4 style="text-align: center; font-family: monospace;
+                        font-size: 11px;
+                        color: #666;
+                        font-style: italic;
+                        margin-top: -10px;"
+                     id="address">VilniusGedimino 27 Lithuania</h4> <!-- Company Address -->
+
+                     <!-- Start Social links -->
+                    <ul class="social-links" style="text-align: center"> 
+                        <li style="margin: 0 2px; text-align: center;">
+                        <a href=""><img src="images/facebook.png"></a></li>
+                        <li style="margin: 0 2px;">
+                        <a href=""><img src="images/twitter.png"></a></li>
+                        <li style="margin: 0 2px;">
+                        <a href=""><img src="images/google-plus.png"></a></li>
+                        <li style="margin: 0 2px;">
+                        <a href=""><img src="images/youtube.png"></a></li>
+                        <li style="margin: 0 2px;">
+                        <a href=""><img src="images/instagram.png"></a></li>
+                        <li style="margin: 0 2px;">
+                        <a href=""><img src="images/linkedin.png"></a></li>
+                    </ul> <!-- End Social links -->
+
+                    <p style="text-align: center; padding-bottom: 30px;">
+                    <a style="
+                        color: #FF9F22;
+                        font-style: italic;
+                        text-decoration: none;
+                        font-family: sans-serif;
+                        font-size: 14px;
+                        padding-bottom: 25px;" 
+                        href="#"> Unsubscribe</a></p>
+                </footer> <!-- End Footer tag -->
+            </div> <!-- End Main container -->
+        </div>
+    </body>
+</html>
